@@ -113,7 +113,7 @@ jQuery(document).ready(function ($) {
     /* Sticky Header JS */
     $(window).scroll(function () { // this will work when your window scrolled.
         var height = $(window).scrollTop(); //getting the scrolling height of window
-        if (height > 300) {
+        if (height > 0) {
             $(".site-header").addClass("sticky_head");
         } else {
             $(".site-header").removeClass("sticky_head");
